@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <nav>
+            <button id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="nav-links">
+                <a href="#about">About Me</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#blog">Blog</a>
+                <a href="resume.pdf" target="_blank">Resume</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button id="dark-mode-toggle" title="Toggle Dark Mode">
+                <i id="mode-icon" class="fas fa-moon"></i>
+            </button>
+        </nav>
+        <div class="section about" id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
+            <p>Hi 👋, I'm <b>Ayush Priyadarshi</b>, a graduate student in Mechanical Engineering at Arizona State University. I'm passionate about semiconductor manufacturing and have a strong background in CAD, simulation, and data analysis.</p>
+            <div class="skills" title="Click on the skill to filter its application">
+                <h2>Skills</h2>
+                <span class="skill-tag" data-skill="SolidWorks" title="Certified SOLIDWORKS Associate">SolidWorks | CSWA <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="ANSYS">ANSYS <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="ABAQUS">ABAQUS <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="AutoCAD">AutoCAD <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="3D_Printing">3D Printing <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="MATLAB">MATLAB <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="C++">C++ <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="Python">Python <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="SQL" title="Structured Query Language">SQL <i class="fas fa-times"></i></span>
+				<span class="skill-tag" data-skill="Arduino">Arduino <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="Excel" title="Microsoft Office Excel">Excel <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="JMP" title="SAS JMP Statistical Analysis Software">JMP <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="TPM" title="Total Productive Maintenance">TPM <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="Industrial_Management" title="Industrial Management">Industrial Management <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="Process_Improvement" title="Process Improvement">Process Improvement <i class="fas fa-times"></i></span>
+                <span class="skill-tag" data-skill="Material_Characterization">Material Characterization <i class="fas fa-times"></i></span>
+            </div>
+        </div>
+        
+        <div class="section experience" id="experience">
+            <h2>Experience</h2>
+            <div class="card" data-skills="Process_Improvement Industrial_Management TPM Excel">
+                <h3>Manufacturing Intern</h3>
+				<p class="date">June 2022 - August 2022</p>
+                <h4>Trident Group Ltd</h4>
+				<ul>
+					<li>Led a critical analysis project resulting in a 15% reduction in production delays and managed a team of 8 field technicians.</li>
+					<li>Managed a team of 8 field technicians as a shift engineer, enabling real-time identification of bottlenecks and implementation of process improvements at a leading textile manufacturer.</li>
+					<li>Enhanced quality control and operational efficiency using Total Productive Maintenance (TPM) methodologies including Ishikawa diagrams and the 5 Whys approach.</li>
+				</ul>
+                <div class="tags">
+                    <span>Process Improvement</span>
+                    <span>Industrial Management</span>
+                    <span>TPM</span>
+					<span>Excel</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section projects" id="projects">
+            <h2>Projects</h2>
+
+            <div class="card" data-skills="JMP Excel Data_Analysis">
+                <h3>Optimization of Keyboard Typing Efficiency</h3>
+				<p class="date">February 2024 - April 2024</p>
+				<ul>
+					<li>Employed ergonomic research by applying designed experiments and ANOVA to evaluate impact of keyboard design and posture on typing performance.</li>
+					<li>Utilized factorial experiments to isolate ergonomic impact of keyboard type, posture, and tilt on typing speed and accuracy.</li>
+				</ul>
+                <div class="tags">
+                    <span>JMP</span>
+                    <span>Excel</span>
+                    <span>Data Analysis</span>
+                </div>
+            </div>
+
+            <div class="card" data-skills="Material_Characterization">
+                <h3>Use of TEM in Carbon Nanostructure Characterization</h3>
+				<p class="date">February 2024 - April 2024</p>
+				<ul>
+					<li>Conducted in-depth review of cutting-edge research demonstrating TEM's critical role in analyzing atomic structure and defects of carbon nanostructures</li>
+					<li>Synthesized state-of-the-art findings from multiple journal papers, highlighting how HRTEM and in situ TEM help characterize nanostructure morphology and electrical properties respectively.</li>
+				</ul>
+                <div class="tags">
+                    <span>Material Characterization</span>
+                    <span>Research</span>
+                </div>
+            </div>
+			
+			<div class="card" data-skills="Material_Characterization">
+                <h3>Monolithic 3D ICs</h3>
+				<p class="date">October 2023 - December 2023</p>
+				<ul>
+					<li>Explored and presented on evolution, current state, and future prospects of Monolithic 3D Integrated Circuits, highlighting shift from traditional 2D to 3D ICs.</li>
+					<li>Investigated various 3D integration approaches, focusing on comparison between heterogenous and homogenous integration techniques, particularly emphasizing Monolithic interconnects over Through Silicon Vias (TSVs).</li>
+				</ul>
+                <div class="tags">
+                    <span>Semiconductor Packaging</span>
+                    <span>Research</span>
+                </div>
+            </div>
+
+            <div class="card" data-skills="SolidWorks ABAQUS ANSYS 3D_Printing">
+                <h3>Compressive properties of 2D/3D Re-entrant Auxetic Structures</h3>
+				<p class="date">August 2022 - May 2023</p>
+				<ul>
+					<li>Designed 3D geometries of different cell shapes (with negative Poisson's ratio) and simulated against boundary conditions of static loading for performance analysis leveraging SolidWorks and ANSYS</li>
+					<li>Performed Impact analysis of bullet impact and parametric study of cell size dimensions for optimum shape and size of unit cells yielding 1.5x better properties.</li>
+				</ul>
+                <div class="tags">
+                    <span>SolidWorks</span>
+                    <span>ABAQUS</span>
+					<span>ANSYS</span>
+                </div>
+            </div>
+			
+			<div class="card" data-skills="SolidWorks Python Arduino">
+                <h3>Automatic Mold making technique for instant forming</h3>
+				<p class="date">January 2022 - May 2022</p>
+				<ul>
+					<li>Designed a prototype mold for plastic forming processes (extrusion); to change profile on demand using SolidWorks</li>
+					<li>Developed a python and an arduino program to automate profile creation from 3D geometry data and motion of underlying mechanism.</li>
+				</ul>
+                <div class="tags">
+                    <span>SolidWorks</span>
+					<span>Python</span>
+					<span>Arduino</span>
+                </div>
+            </div>
+			
+			<div class="card" data-skills="Process_Improvement Data_Analysis">
+                <h3>Protocol Analysis - Design Thinking</h3>
+				<p class="date">June 2021 - July 2021</p>
+				<ul>
+					<li>Conducted interviews and brainstorming sessions with individuals with/without product design experience to analyze process of design thinking in an environment of collaboration.</li>
+					<li>Performed analysis of data on techniques based on 5 phases of design thinking process: Empathize, Define, Ideate, Prototype and Tests by coding and transcribing sessions according to FBS and SAPPHiRE Models</li>
+				</ul>
+                <div class="tags">
+                    <span>Design Thinking</span>
+					<span>Excel</span>
+					<span>Data Analysis</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section education" id="education">
+            <h2>Education</h2>
+            <div class="card" data-skills="Semiconductor_Manufacturing Mechanical_Engineering Material_Characterization MATLAB Data_Analysis JMP">
+                <h3>Arizona State University</h3>
+				<p class="date">August 2023 - May 2025</p>
+                <h4>Master of Science in Mechanical Engineering</h4>
+				<ul>
+					<li>CGPA: 4.00/4.00</li>
+					<li>Specialization in Semiconductor Manufacturing</li>
+					<li>Tau Beta Pi Membership for outstanding Academic Achievement</li>
+                </ul>
+				<div class="tags">
+                    <span>Fundamentals of Semiconductor Packaging</span>
+                    <span>Design of Engineering Experiments</span>
+                    <span>Advanced Material Characterization</span>
+                    <span>Stress Analysis</span>
+                </div>
+            </div>
+            <div class="card" data-skills="Mechanical_Engineering Manufacturing_Technology Material_Removal_Processes Industrial_Management Data_Structures C++ Python SQL MATLAB Arduino 3D_Printing AutoCAD ANSYS ABAQUS SolidWorks">
+                <h3>Indian Institute of Technology, Ropar</h3>
+				<p class="date">August 2019 - May 2023</p>
+                <h4>Bachelor of Technology in Mechanical Engineering</h4>
+				<ul>
+					<li>CGPA: 8.14/10.00</li>
+					<li>Mentor CIM Club AY2021-22</li>
+					<li>Representative CIM Club AY2020-21</li>
+                </ul>
+				<div class="tags">
+                    <span>Additive Manufacturing</span>
+                    <span>Manufacturing Technology</span>
+                    <span>Material Removal Processes</span>
+                    <span>Industrial Management</span>
+                    <span>Data Structures</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section blog" id="blog">
+            <h2>Blog</h2>
+            <p>Check out my blog posts on <a href="https://medium.com/@ayush729p" target="_blank">Medium</a>.</p>
+        </div>
+        
+		<!-- Scroll to top button -->
+		<button id="scrollToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+		
+        <footer id="contact">
+            <p>Connect with me: <a href="https://linkedin.com/in/ayush-priyadarshi" target="_blank">LinkedIn</a> | <a href="https://github.com/ayush729p" target="_blank">GitHub</a> | <a href="mailto:ayush729p@gmail.com" target="_blank">Email</a></p>
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
