@@ -5,8 +5,8 @@
 
 Built on vanilla HTML, CSS and Javascript.
 
-Features tag filtering for skills.
+Features tag filtering for skills, responsive design and dark mode.
 
 *Disclosure: This project does contain AI Generated code snippets from ChatGPT and Github Copilot.*
 
-To report a bug, please open an issue.
+To report a bug or suggest an improvement, please open an issue.
